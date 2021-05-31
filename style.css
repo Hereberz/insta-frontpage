@@ -33,6 +33,11 @@ body    {
     display: flex;
     justify-content: center;
 }
+.theme-switch-wrapper{
+    display:flex;
+    align-items: flex-start;
+    justify-content: start;
+}
 
 .instagram-wrapper{
     display:flex;
@@ -145,12 +150,13 @@ body    {
     background-image:url(img/googleplay-button.png);
 }
 
-/* switch */
-/*Simple css to style it like a toggle switch
+
+                        /*css pra deixar o switch*/
 .theme-switch-wrapper {
     display: flex;
-    align-items: center;
+    align-items:flex-start;
   }
+  
   .theme-switch {
     display: inline-block;
     height: 34px;
@@ -161,7 +167,7 @@ body    {
   .theme-switch input {
     display:none;
   }
-  
+ 
   .slider {
     background-color: #ccc;
     bottom: 0;
@@ -183,7 +189,7 @@ body    {
     transition: .4s;
     width: 26px;
   }
-  
+   
   input:checked + .slider {
     background-color: #66bb6a;
   }
@@ -199,7 +205,11 @@ body    {
   .slider.round:before {
     border-radius: 50%;
   }
-*/
+  .iconzin{
+      width:30px;
+      height:30px;
+  }
+/* switch 
 /* media queries */
 
 @media (max-width: 1024px) {
